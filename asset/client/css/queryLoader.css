@@ -1,0 +1,70 @@
+#qLoverlay{
+	background-image:url("../img/madappe-logo.png");
+	background-color:white;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+#qLbar{
+	position:absolute !important;
+	top:100% !important;
+}
+
+#qLpercentage{
+	position:absolute;
+	color:white !important;
+	bottom:30px !important;
+	font-size:12px !important;
+	display:none;		/* 	Change to block for display percentage */
+}
+
+/* Loading Page Style */
+
+#bar_window {
+    background: url('../images/pattern.png');
+    background-size:cover;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+    text-align:center;
+}
+
+#empty_bar {
+    position: absolute;
+    bottom: 0;
+    height: 10px;
+    width: 100%;
+    background: #d4d4d4;
+}
+
+#bar {
+    position: absolute;
+    bottom: 69px;
+    background: #1d7d6a;
+    height: 10px;
+}
+
+#load-text {
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+    text-align: center;
+    color: #b2b2b2;
+    font-family: 'LucidaGrande';
+}
+
+#percent {
+    position: absolute;
+    bottom: 9%;
+    width: 100%;
+    text-align: center;
+    color: transparent;
+}
+
+/* #qLoverlay > .footer.row {
+    position: absolute;
+    bottom: 0px;
+    background: white;
+} */

@@ -1,0 +1,128 @@
+/* 
+    Document   : template
+    Created on : Aug 5, 2014, 4:06:10 PM
+    Author     : user
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.no_padding{
+    padding: 0px;
+}
+
+.no_padding_top{
+    padding-top: 0px;
+}
+
+.no_padding_left{
+    padding-left: 0px;
+}
+
+.no_padding_right{
+    padding-right: 0px;
+}
+
+.padding_right_double{
+    padding-right: 30px;
+}
+
+.padding_left_double{
+    padding-left: 30px;
+}
+
+.padding_left{
+    padding-left: 15px !important;
+}
+
+.no_margin{
+    margin: 0px;
+}
+
+.no_margin_bottom{
+    margin-bottom: 0px;
+}
+
+.no_margin_top{
+    margin-top: 0px !important;
+}
+
+.no_margin_left{
+    margin-left: 0px !important;
+}
+
+.margin-left{
+    margin-left: 15px !important;
+}
+
+.no_border{
+    border:none;
+}
+
+footer{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    bottom: 0px;
+}
+
+.footer{
+    position: fixed !important;
+    width: 100%;
+    bottom: 0px;
+}
+
+a,a:hover{
+    text-decoration:none;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.left_align{
+    text-align: left;
+}
+
+/*
+    Background and Icon
+*/
+
+.bg_icon_40{
+    height: 40px;
+    width: 40px;
+}
+
+.bg_icon_32{
+    height: 32px;
+    width: 32px;
+}
+
+.padding_top_double {
+    padding-top: 30px;
+}
+.fixed {
+    position: fixed;
+}
+.top {
+    top: 0px;
+}
+.right {
+    right: 0px;
+}
+
+.full_screen{
+    overflow-x: hidden;
+}
+
+.height{
+    height: 100%;
+}
+
+.color{
+    filter:none;
+    -webkit-filter:none;
+}

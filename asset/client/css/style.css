@@ -1,0 +1,1269 @@
+/* Public
+================================================== */
+html,body {
+    float: left;
+    height: 100%;
+    overflow: hidden !important;
+    position: relative;
+    width: 100%;
+}
+
+p {
+    margin-bottom: 0px;
+    color: #d3d3d3;
+}
+
+#loading.loading {
+    background-image: url("../../facepp/img/loading.gif");
+    background-color: #CCC;
+    background-color: rgba(190,190,190,0.6);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Custom Input Range
+================================================== */
+input[type=range].opacity {
+    -webkit-appearance: none;
+    margin: 10px 0;
+    width: 100%;
+}
+
+input[type=range].opacity:focus {
+    outline: none;
+}
+
+input[type=range].opacity::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+    background: -webkit-linear-gradient(left,white, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right,white, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right,white, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right,white, black); /* Standard syntax */
+    border-radius: 25px;
+    border: 0px solid #000101;
+}
+
+input[type=range].opacity::-webkit-slider-thumb {
+    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+    border: 0px solid #000000;
+    height: 20px;
+    width:7px;
+    border-radius: 0px;
+    background: url('../img/slider.jpg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -7px;
+}
+
+input[type=range].opacity:focus::-webkit-slider-runnable-track {
+    background: -webkit-linear-gradient(left,white, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right,white, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right,white, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right,white, black); /* Standard syntax */
+}
+
+input[type=range].opacity::-moz-range-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+    background: -webkit-linear-gradient(left,white, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right,white, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right,white, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right,white, black); /* Standard syntax */
+    border-radius: 25px;
+    border: 0px solid #000101;
+}
+
+input[type=range].opacity::-moz-range-thumb {
+    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+    border: 0px solid #000000;
+    height: 20px;
+    width:7px;
+    border-radius: 7px;
+    background: url('../img/slider.jpg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+input[type=range].opacity::-ms-track {
+    width: 100%;
+    height: 12.8px;
+    cursor: pointer;
+    animate: 0.2s;
+    background: transparent;
+    border-color: transparent;
+    border-width: 39px 0;
+    color: transparent;
+}
+
+input[type=range].opacity::-ms-fill-lower {
+    background: -webkit-linear-gradient(left,white, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right,white, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right,white, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right,white, black); /* Standard syntax */
+    border: 0px solid #000101;
+    border-radius: 50px;
+    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+}
+
+input[type=range].opacity::-ms-fill-upper {
+    background: -webkit-linear-gradient(left,white, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right,white, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right,white, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right,white, black); /* Standard syntax */
+    border: 0px solid #000101;
+    border-radius: 50px;
+    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+}
+
+input[type=range].opacity::-ms-thumb {
+    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+    border: 0px solid #000000;
+    height: 20px;
+    width:7px;
+    border-radius: 7px;
+    background: url('../img/slider.jpg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+input[type=range].opacity:focus::-ms-fill-lower {
+    background: -webkit-linear-gradient(left,white, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right,white, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right,white, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right,white, black); /* Standard syntax */
+}
+
+input[type=range].opacity:focus::-ms-fill-upper {
+    background: -webkit-linear-gradient(left,white, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right,white, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right,white, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right,white, black); /* Standard syntax */
+}
+
+/* Header
+================================================== */
+div#primary_nav {
+    float: left;
+    width: 100%;
+    background: #9c827a;
+    padding-right: 50px;
+}
+
+div#primary_nav>ul>li {
+    float: left;
+    margin: 0px 20px;
+    color: #c5aaa1;
+    cursor: pointer;
+}
+
+div#primary_nav>ul {
+    float: right;
+    margin: 10px 0px;
+}
+
+div#primary_nav>ul>li.active,div#primary_nav>ul>li:hover {
+    color: white;
+}
+
+header#main_header {
+    text-transform: uppercase;
+    float: left;
+    width: 100%;
+    font-size: 12px;
+    font-family: 'DINMediumAlternate';
+    z-index: 100;
+    position: relative;
+}
+
+.secondary_nav {
+    float: left;
+    width: 100%;
+    color: #8d737f;
+    background: #615657;
+    font-size: 12px;
+}
+
+.secondary_nav>ul {
+    float: right;
+    padding-right: 32px;
+    margin: 10px 0px;
+    text-align: right;
+}
+
+.secondary_nav>ul>li {
+    float: left;
+    margin: 0px 40px;
+    font-size: 12px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.secondary_nav>ul>li.active,.secondary_nav>ul>li:hover {
+    color: white;
+}
+
+/* Foto Section
+================================================= */
+div#makeuproom_wrapper {
+    float: left;
+    position: relative;
+    width: 100%;
+    padding-top: 0px;
+    overflow: hidden !important;
+    background: white;
+}
+
+div#photo_canvas {
+    float: left;
+    overflow: hidden;
+    padding: 0px;
+}
+
+#photo_canvas > .loading {
+    background-image: url("../../facepp/img/loading.gif");
+    background-color: #CCC;
+    background-color: rgba(190,190,190,0.6);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div#loading {
+    display: none;
+}
+
+div#loading.loading {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
+}
+
+header#header_photo>div {
+    float: left;
+    margin:  0px 4px;
+}
+
+header#header_photo {
+    float: right;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    z-index: 9999;
+}
+
+div#photo {
+    text-align: center;
+}
+
+div#photo>img {
+    /* min-width: 100%; */
+}
+
+header#header_photo>div:hover {
+    background: #9c827a;
+}
+
+footer#footer_photo {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background: rgba(156,130,122,1);
+    padding: 10px;
+    z-index: 99999;
+}
+
+footer#footer_photo>div {
+    float: left;
+    width: 33.3333%;
+}
+
+#footer_photo>div>button {
+    background: transparent;
+    color: white;
+    padding: 7px 0px;
+    border: 1px solid #dcdcdc;
+    width: 100%;
+}
+
+footer#footer_photo>div {
+    width: 33.333%;
+    float: left;
+    padding: 0px 10px;
+    position: relative;
+}
+
+footer#footer_photo>div>span {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    border: 1px solid #dcdcdc;
+    padding: 7px;
+    background: rgba(156,130,122,0.82);
+}
+
+#myTab>li {
+    width: 33.333%;   height: 0;   
+    border-bottom: 39px solid #cecece;   
+    border-right: 35px solid transparent;
+    background: #cecece;
+    margin-left: -35px;
+}
+
+div#zoom {
+    position: absolute;
+    top: 250px;
+    left: -150px;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+}
+
+/* Zooom Slider
+====================================================== */
+
+input#zoom {
+    width: 399px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    top: 250px;
+    position: absolute;
+    left: -150px;
+}
+
+input[type=range]#zoom {
+    -webkit-appearance: none;
+    margin: 10px 0;
+    background: transparent;
+}
+
+input[type=range]#zoom:focus {
+    outline: none;
+}
+
+input[type=range]#zoom::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+    background: transparent;
+    border-radius: 25px;
+    border: 1px solid #e1e1e1;
+}
+
+input[type=range]#zoom::-webkit-slider-thumb {
+    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+    border: 0px solid #000000;
+    height: 7px;
+    width:16px;
+    border-radius: 0px;
+    background: url('../img/sliderZoom.png');
+    background-repeat: no-repeat;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -2px;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg)
+}
+
+input[type=range]#zoom:focus::-webkit-slider-runnable-track {
+   background: transparent;
+}
+
+input[type=range]#zoom::-moz-range-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+    background: transparent;
+    border-radius: 25px;
+    border: 1px solid #e1e1e1;
+}
+
+input[type=range]#zoom::-moz-range-thumb {
+    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+    border: 0px solid #000000;
+    height: 20px;
+    width:7px;
+    border-radius: 7px;
+    background: url('../img/sliderZoom.png');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+input[type=range]#zoom::-ms-track {
+    width: 100%;
+    height: 12.8px;
+    cursor: pointer;
+    animate: 0.2s;
+    background: transparent;
+    border-color: transparent;
+    border-width: 39px 0;
+    color: transparent;
+}
+
+input[type=range]#zoom::-ms-fill-lower {
+    background: transparent;
+    border: 1px solid #e1e1e1;
+    border-radius: 50px;
+    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+}
+
+input[type=range]#zoom::-ms-fill-upper {
+    background: transparent;
+    border: 1px solid #e1e1e1;
+    border-radius: 50px;
+    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+}
+
+input[type=range]#zoom::-ms-thumb {
+    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+    border: 0px solid #000000;
+    height: 20px;
+    width:7px;
+    border-radius: 7px;
+    background: url('../img/sliderZoom.png');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+input[type=range]#zoom:focus::-ms-fill-lower {
+    background: transparent;
+}
+
+input[type=range]#zoom:focus::-ms-fill-upper {
+    background: transparent;
+}
+
+#zoom_wrapper::before {
+    content: ' ';
+    background: url('../img/icon_zoomin.png');
+    min-width: 19px;
+    min-height: 19px;
+    position: absolute;
+    top: 47px;
+    left: 42px;
+}
+
+#zoom_wrapper::after {
+    content: " ";
+    background: url('../img/icon_zoomout.png');
+    top: 461px;
+    left: 42px;
+    position: absolute;
+    width: 19px;
+    height: 19px;
+}
+
+div#zoom_wrapper {
+    z-index: 1001;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    /* transform: rotate(90deg); */
+    float: left;
+}
+
+/* Tabproduc
+========================================================== */
+
+#myTab>li:nth-child(3) {
+    background: -50px;
+    background: transparent;
+}
+
+#myTab>li.active,#myTab>li:hover {
+    width: 33.333%;  height: 0;  
+    border-bottom: 39px solid #9c827a;  border-right: 35px solid transparent;
+    z-index: 1;
+}
+
+#myTab>li.active>a {
+    background: #9c827a;
+    border: 0px;
+}
+
+#myTab>li>a {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+}
+
+div#product_detail {
+    float: left;
+    width: 58.333333333333336%;
+    position: absolute;
+    padding: 0px 47px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.tab-content {
+    background: #f4f4f4;
+    float: left;
+    width: 100%;
+}
+
+ul#myTab {
+    background: white;
+    margin-left: 35px;
+    margin-right: -107px;
+    border-bottom: 0px;
+}
+
+div#makeup_canvas {
+    padding: 15px 30px 15px 30px;
+}
+
+#myTab>li>a:hover {
+    background: transparent;
+    border: 0px !important;
+}
+
+.tab-pane {
+    padding: 30px 0px;
+    float: left;
+    width: 100%;
+    border: 1px solid #e7e7e7;
+    box-sizing: content-box;
+    min-height: 125px;
+    background: #f4f4f4;
+}
+
+.cart_product_image {
+    float: left;
+}
+
+.cart_product_detail {
+    float: left;
+    position: absolute;
+    left: 46px;
+    font-size: 12px;  padding-top: 10px;
+    color: #bbbbbb;
+}
+
+a.addCartLink {
+    color: #efa21c;
+}
+
+span.addCart {
+    font-size: 12px;
+}
+
+a.deleteFromCart {
+    font-size: 16px;
+    color: red;
+    margin-left: 10px;
+}
+
+a.seeAllLink {
+    text-align: center;
+    padding: 10px 60px;
+    border: 1px solid #d9d9d9;
+    text-transform: uppercase;
+    color: #9c827a;
+    text-decoration: none;
+    transition: linear 0.2s;
+}
+
+div#makeup_panel {
+    overflow: hidden;
+    margin-left: 15px;
+}
+
+div.makeup_color {
+    background: #f4f4f4;
+    padding: 15px;
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+
+h4 {
+    margin-top: 0px;
+    color: #9c827a;
+    text-transform: uppercase;
+    font-family: 'DINMediumAlternate';
+}
+
+#fullMakeUp>span,#checkOut>span {
+    position: absolute;  top: 0px;  
+    left: 15px;  border: 1px solid #dcdcdc;  
+    padding: 5px 5px 4px 5px;
+    background: white;
+}
+
+#fullMakeUp>button,#checkOut>button {
+    background: transparent;  
+    color: #909090;  padding: 7px 0px;  border: 1px solid #dcdcdc;  width: 100%;
+    transition: linear 0.2s;
+}
+
+div#button_section {
+    margin: 0px 0px 15px 0px;
+    float: left;
+}
+
+div.color_opacity {
+    margin-top: 15px;
+    padding: 15px;
+    background: #f4f4f4;
+}
+
+.increment_number {
+    position: absolute;
+    color: #494949;
+    font-weight: bold;
+}
+
+.product_image {
+    padding: 15px 0px 0px 15px;
+}
+
+.product_name {
+    float: left;
+    padding: 5px 0px 0px 15px;
+    color: #8f8f8f;
+    min-height: 45px;
+}
+
+.product_item,.design_item {
+    margin: 10px 0px;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+}
+
+div.suggested {
+    padding: 15px;
+    background: #f4f4f4;
+    /* float: left; */
+    margin-top: 15px;
+}
+
+div.makeup_design {
+    overflow-x: hidden;
+    padding: 15px;
+    background: #f4f4f4;
+}
+
+div.suggested>div:nth-child(2) {
+    margin-top: 15px;
+}
+
+img.suggested_brush:hover, img.suggested_brush.active {
+    background: #9c827a;
+}
+
+#fullMakeUp>button:hover,#checkOut>button:hover {
+    background: #9c827a;
+    color: white;
+    transition: linear 0.2s;
+}
+
+a.seeAllLink:hover {
+    background: #9c827a;
+    color: white;
+    transition: linear 0.2s;
+}
+
+#footer_photo>div>button:hover {
+    background: white;
+    color:#9c827a;
+    transition: linear 0.2s;
+}
+
+div#makeup_panel>div {
+    float: left;
+    position: absolute;
+    top: 0px;
+    display: none;
+    margin-left: -15px;
+}
+
+div#makeup_panel>div.active {
+    display: block;
+}
+
+.product {
+    float: left;
+    border: 1px solid transparent;
+    padding: 15px;
+}
+
+.product_item.active>.product,.design_item.active>.product {
+    border: 1px solid #9c827a;
+}
+
+div#button_section>div:nth-child(1) {
+    margin-left: -15px;
+    float: left;
+    padding-right: 0px;
+}
+
+div#button_section>div:nth-child(2) {
+    margin-left: 15px;
+    padding-right: 0px;
+}
+
+#landscape{
+    z-index: -1;
+    width:100%;
+    height: 100%;
+    background: url('../img/landscapeonly.png');
+    background-position: center;
+    background-color: rgba(0,0,0,9);
+    position: fixed;
+    background-repeat: no-repeat;
+    display: none;
+}
+
+#notsupport{
+    z-index: -1;
+    width:100%;
+    height: 100%;
+    background: url('../img/notsupport.png');
+    background-position: center;
+    background-color: rgba(0,0,0,9);
+    position: fixed;
+    background-repeat: no-repeat;
+    display: none;
+}
+
+/* Custom Modal #takePicture 
+============================================================ */
+#takePicture .modal-body {
+    height: 75px;
+}
+
+#takePicture .modal-content {
+    width: 100%;
+}
+
+#takePicture .modal-dialog {
+    width: 360px !important;
+    top: 50%;
+    position: absolute;
+    margin-top: -84px;
+    left: 50%;
+    margin-left: -180px;
+}
+
+#takePicture .col-sm-6 {
+    overflow: hidden;
+}
+
+#takePicture input.upload-file {
+    height: 34px;
+    cursor: pointer;
+    display: block;
+}
+
+#takePicture button {
+    cursor: pointer;
+}
+
+#takePicture .close {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
+
+/* Custom Modal #camera
+============================================================= */
+#camera .modal-body {
+    height: 400px;
+    width: 320px;
+}
+
+#camera .modal-content {
+    width: 100%;
+}
+
+#camera .modal-dialog {
+    width: 320px;
+    position: absolute;
+    left: 50%;
+    margin-left: -160px;
+    top: 50%;
+    margin-top: -216px;
+}
+
+#camera button.close {
+    margin-top: -10px !important;
+}
+
+/* Popup Webcam
+============================================================= */
+.camera-modal {
+    position: absolute;
+    top: 0%;
+    left: 15px;
+    text-align: center;
+    float: left;
+    width: 600px;
+    height: 790px;
+    zoom: 0.5;
+    overflow: hidden;
+}
+
+.camera-modal>video {
+    position: relative;
+    top: 6px;
+    left: -2px;
+    float: left;
+}
+
+a.btn.capture {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    zoom: 2;
+    margin-left: -38.5px;
+}
+
+/* Adjust Modal Custom
+============================================================= */
+#adjustModal .tab-pane {
+    height: auto !important;
+    padding: 15px 0px;
+    overflow: hidden;
+}
+
+#adjustModal .modal-body {
+    height: 360px;
+}
+
+img#face_guide {
+    width: 100%;
+}
+
+#adjustModal {
+    z-index: 9999;
+}
+
+img#left_eye_guide {
+    width: 100%;
+}
+
+img#right_eye_guide {
+    width: 100%;
+}
+
+img#left_eyebrow_guide {
+    width: 100%;
+}
+
+img#right_eyebrow_guide {
+    width: 100%;
+}
+
+img#lips_guide {
+    width: 100%;
+}
+
+#adjustModal .nav-tabs {
+    border-bottom: 0px solid black !important;
+}
+
+#adjustModal ul.nav.nav-tabs {
+    border-bottom: 0px solid transparent;
+}
+
+#adjustModal .close {
+    position: absolute;
+    right: 20px;
+    top: 8px;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+    color: #8d737f;
+}
+
+.nav-tabs>li>a {
+    color: #8d737f;
+}
+
+.adjust_img {
+    overflow: hidden;
+}
+
+.point_wrapper {
+    position: absolute;
+    top: 0px;
+    left: 15px;
+    /* padding: 0px 15px; */
+}
+
+.point_wrapper>div {
+    width: 6px;
+    height: 6px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    background: darkturquoise;
+    margin-left: -6px;
+    margin-top: -3px;
+    cursor: hand !important;
+}
+
+div#saveAdjust {
+    position: absolute;
+    bottom: 0px;
+    right: 15px;
+}
+
+/* Lips Area
+============================================================= */
+div#lipsline_color {
+    display: none;
+}
+
+div#color_opacity_lipsline {
+    display: none;
+}
+
+div#lips_color {
+    display: block;
+}
+
+div#color_opacity_lips {
+    display: block;
+}
+
+/* Ipad Device
+============================================================= */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
+    #makeup_canvas{
+        padding: 15px !important;
+    }
+
+    div#makeup_panel{
+        padding: 0px;
+    }
+
+    footer#footer_photo>div{
+        width:50%;
+    }
+
+    footer#footer_photo>div:nth-child(3){
+        width:100%;
+        margin-top:10px
+    }
+    
+    div#product_detail {
+        padding: 0px 30px;
+        right: 0px;
+    }
+
+    .cart_product_image>img {
+        width: 40px;
+    }
+    
+    /* Custom Input Range
+    ================================================== */
+    input[type=range].opacity {
+        -webkit-appearance: none;
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    input[type=range].opacity:focus {
+        outline: none;
+    }
+
+    input[type=range].opacity::-webkit-slider-runnable-track {
+        width: 100%;
+        height: 10px;
+        cursor: pointer;
+        animate: 0.2s;
+        box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+        background: -webkit-linear-gradient(left,white, black); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(right,white, black); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(right,white, black); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to right,white, black); /* Standard syntax */
+        border-radius: 25px;
+        border: 0px solid #000101;
+    }
+
+    input[type=range].opacity::-webkit-slider-thumb {
+        box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+        border: 0px solid #000000;
+        height: 20px;
+        width:7px;
+        border-radius: 0px;
+        background: url('../img/slider.jpg');
+        background-repeat: no-repeat;
+        cursor: pointer;
+        -webkit-appearance: none;
+        margin-top: -4px;
+    }
+
+    input[type=range].opacity:focus::-webkit-slider-runnable-track {
+        background: -webkit-linear-gradient(left,white, black); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(right,white, black); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(right,white, black); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to right,white, black); /* Standard syntax */
+    }
+
+    input[type=range].opacity::-moz-range-track {
+        width: 100%;
+        height: 10px;
+        cursor: pointer;
+        animate: 0.2s;
+        box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+        background: -webkit-linear-gradient(left,white, black); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(right,white, black); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(right,white, black); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to right,white, black); /* Standard syntax */
+        border-radius: 25px;
+        border: 0px solid #000101;
+    }
+
+    input[type=range].opacity::-moz-range-thumb {
+        box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+        border: 0px solid #000000;
+        height: 20px;
+        width:7px;
+        border-radius: 7px;
+        background: url('../img/slider.jpg');
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }
+
+    input[type=range].opacity::-ms-track {
+        width: 100%;
+        height: 12.8px;
+        cursor: pointer;
+        animate: 0.2s;
+        background: transparent;
+        border-color: transparent;
+        border-width: 39px 0;
+        color: transparent;
+    }
+
+    input[type=range].opacity::-ms-fill-lower {
+        background: -webkit-linear-gradient(left,white, black); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(right,white, black); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(right,white, black); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to right,white, black); /* Standard syntax */
+        border: 0px solid #000101;
+        border-radius: 50px;
+        box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+    }
+
+    input[type=range].opacity::-ms-fill-upper {
+        background: -webkit-linear-gradient(left,white, black); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(right,white, black); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(right,white, black); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to right,white, black); /* Standard syntax */
+        border: 0px solid #000101;
+        border-radius: 50px;
+        box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+    }
+
+    input[type=range].opacity::-ms-thumb {
+        box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+        border: 0px solid #000000;
+        height: 20px;
+        width:7px;
+        border-radius: 7px;
+        background: url('../img/slider.jpg');
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }
+
+    input[type=range].opacity:focus::-ms-fill-lower {
+        background: -webkit-linear-gradient(left,white, black); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(right,white, black); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(right,white, black); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to right,white, black); /* Standard syntax */
+    }
+
+    input[type=range].opacity:focus::-ms-fill-upper {
+        background: -webkit-linear-gradient(left,white, black); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(right,white, black); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(right,white, black); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to right,white, black); /* Standard syntax */
+    }
+    
+    /* Zooom Slider
+    ====================================================== */
+
+    input#zoom {
+        width: 399px;
+        transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+        top: 250px;
+        position: absolute;
+        left: -150px;
+    }
+
+    input[type=range]#zoom {
+        -webkit-appearance: none;
+        margin: 8px 0;
+        background: transparent;
+    }
+
+    input[type=range]#zoom:focus {
+        outline: none;
+    }
+
+    input[type=range]#zoom::-webkit-slider-runnable-track {
+        width: 100%;
+        height: 10px;
+        cursor: pointer;
+        animate: 0.2s;
+        box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+        background: transparent;
+        border-radius: 0px;
+        border: 1px solid #e1e1e1;
+    }
+
+    input[type=range]#zoom::-webkit-slider-thumb {
+        box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+        border: 0px solid #000000;
+        height: 10px;
+        width:20px;
+        border-radius: 0px;
+        background: url('../img/sliderZoom.png');
+        background-size:20px;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        -webkit-appearance: none;
+        margin-top: 0px;
+        transform: rotate(90deg);
+        -webkit-transform: rotate(90deg)
+    }
+
+    input[type=range]#zoom:focus::-webkit-slider-runnable-track {
+       background: transparent;
+    }
+
+    input[type=range]#zoom::-moz-range-track {
+        width: 100%;
+        height: 10px;
+        cursor: pointer;
+        animate: 0.2s;
+        box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+        background: transparent;
+        border-radius: 25px;
+        border: 1px solid #e1e1e1;
+    }
+
+    input[type=range]#zoom::-moz-range-thumb {
+        box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+        border: 0px solid #000000;
+        height: 20px;
+        width:7px;
+        border-radius: 7px;
+        background: url('../img/sliderZoom.png');
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }
+
+    input[type=range]#zoom::-ms-track {
+        width: 100%;
+        height: 12.8px;
+        cursor: pointer;
+        animate: 0.2s;
+        background: transparent;
+        border-color: transparent;
+        border-width: 39px 0;
+        color: transparent;
+    }
+
+    input[type=range]#zoom::-ms-fill-lower {
+        background: transparent;
+        border: 1px solid #e1e1e1;
+        border-radius: 50px;
+        box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+    }
+
+    input[type=range]#zoom::-ms-fill-upper {
+        background: transparent;
+        border: 1px solid #e1e1e1;
+        border-radius: 50px;
+        box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+    }
+
+    input[type=range]#zoom::-ms-thumb {
+        box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+        border: 0px solid #000000;
+        height: 20px;
+        width:7px;
+        border-radius: 7px;
+        background: url('../img/sliderZoom.png');
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }
+
+    input[type=range]#zoom:focus::-ms-fill-lower {
+        background: transparent;
+    }
+
+    input[type=range]#zoom:focus::-ms-fill-upper {
+        background: transparent;
+    }
+
+    #zoom_wrapper::before {
+        content: ' ';
+        background: url('../img/icon_zoomin.png');
+        min-width: 19px;
+        min-height: 19px;
+        position: absolute;
+        top: 48px;
+        left: 41px;
+    }
+
+    #zoom_wrapper::after {
+        content: " ";
+        background: url('../img/icon_zoomout.png');
+        top: 461px;
+        left: 42px;
+        position: absolute;
+        width: 19px;
+        height: 19px;
+    }
+
+    div#zoom_wrapper {
+        z-index: 1001;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        /* transform: rotate(90deg); */
+        float: left;
+    }
+}
+
+@media (orientation: portrait) {
+    #landscape{
+        z-index: 999999;  
+    }
+}
+
+@media only screen and (max-device-width : 767px){
+    #notsupport{
+        z-index: 999999;  
+    }
+}
+
+@media only screen and (max-height : 450px){
+    #notsupport{
+        z-index: 999999;  
+    }
+}
+
+.modal {
+    z-index:100000000 !important;
+}

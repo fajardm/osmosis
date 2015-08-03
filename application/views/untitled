@@ -1,0 +1,380 @@
+<div id="powder_panel" class="active">
+                        <div class="col-sm-6">
+                            <!-- Start Face -->
+
+                            <div class="row col-sm-12 makeup_color active" id="powder_color">
+                                <div class="col-sm-12 col-xs-12">
+                                    <h4>Powder</h4>
+                                    <p>Please select color and other options</p>
+                                </div>
+                                <div class="col-sm-12 col-xs-12">
+
+                                    <div class="col-xs-12 col-sm-6 no_padding product_item active"  type="1" onclick="$('#powder_color .product_item').removeClass('active');$(this).addClass('active');facecolor(231, 172, 207, 'makeovers/face/facecolor/', $(this).attr('type'));">
+                                        <div class="product">
+                                            <div class="increment_number">
+                                                01
+                                            </div>
+                                            <div class="product_image">
+                                                <img src="<?php echo base_url() . 'asset/client/'; ?>img/powder/powder/powder_01.png" class="width">
+                                            </div>
+                                            <div class="product_name">
+                                                Powder 1
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-6 no_padding product_item" type="1" onclick="$('#powder_color .product_item').removeClass('active');$(this).addClass('active');facecolor(231, 172, 207, 'makeovers/face/facecolor/', $(this).attr('type'))">
+                                        <div class="product">
+                                            <div class="increment_number">
+                                                02
+                                            </div>
+                                            <div class="product_image">
+                                                <img src="<?php echo base_url() . 'asset/client/'; ?>img/powder/powder/powder_02.png" class="width">
+                                            </div>
+                                            <div class="product_name">
+                                                Powder 2
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-6 no_padding product_item" type="1" onclick="$('#powder_color .product_item').removeClass('active');$(this).addClass('active');facecolor(231, 172, 207, 'makeovers/face/facecolor/', $(this).attr('type'))">
+                                        <div class="product">
+                                            <div class="increment_number">
+                                                03
+                                            </div>
+                                            <div class="product_image">
+                                                <img src="<?php echo base_url() . 'asset/client/'; ?>img/powder/powder/powder_03.png" class="width">
+                                            </div>
+                                            <div class="product_name">
+                                                Powder 3
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-6 no_padding product_item" type="1" onclick="$('#powder_color .product_item').removeClass('active');$(this).addClass('active');facecolor(231, 172, 207, 'makeovers/face/facecolor/', $(this).attr('type'))">
+                                        <div class="product">
+                                            <div class="increment_number">
+                                                04
+                                            </div>
+                                            <div class="product_image">
+                                                <img src="<?php echo base_url() . 'asset/client/'; ?>img/powder/powder/powder_04.png" class="width">
+                                            </div>
+                                            <div class="product_name">
+                                                Powder 4
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div> <!-- End of #powder_color -->
+
+                            <div class="row col-sm-12 makeup_color" id="ccream_color" hidden>
+                                <div class="col-sm-12 col-xs-12">
+                                    <h4>Powder</h4>
+                                    <p>Please select color and other options</p>
+                                </div>
+                                <div class="col-sm-12 col-xs-12">
+
+                                    <div class="col-xs-12 col-sm-6 no_padding product_item active"  type="1" onclick="$('#ccream_color .product_item').removeClass('active');$(this).addClass('active');facecolor(231, 172, 207, 'makeovers/face/facecolor/', $(this).attr('type'));">
+                                        <div class="product">
+                                            <div class="increment_number">
+                                                01
+                                            </div>
+                                            <div class="product_image">
+                                                <img src="<?php echo base_url() . 'asset/client/'; ?>img/blush1.png" class="width">
+                                            </div>
+                                            <div class="product_name">
+                                                Pink Pearl
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-6 no_padding product_item" type="1" onclick="$('#ccream_color .product_item').removeClass('active');$(this).addClass('active');facecolor(231, 172, 207, 'makeovers/face/facecolor/', $(this).attr('type'))">
+                                        <div class="product">
+                                            <div class="increment_number">
+                                                02
+                                            </div>
+                                            <div class="product_image">
+                                                <img src="<?php echo base_url() . 'asset/client/'; ?>img/blush2.png" class="width">
+                                            </div>
+                                            <div class="product_name">
+                                                Summer Rose
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-6 no_padding product_item" type="1" onclick="$('#ccream_color .product_item').removeClass('active');$(this).addClass('active');facecolor(231, 172, 207, 'makeovers/face/facecolor/', $(this).attr('type'))">
+                                        <div class="product">
+                                            <div class="increment_number">
+                                                03
+                                            </div>
+                                            <div class="product_image">
+                                                <img src="<?php echo base_url() . 'asset/client/'; ?>img/blush3.png" class="width">
+                                            </div>
+                                            <div class="product_name">
+                                                Nude Bliss
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-6 no_padding product_item" type="1" onclick="$('#ccream_color .product_item').removeClass('active');$(this).addClass('active');facecolor(231, 172, 207, 'makeovers/face/facecolor/', $(this).attr('type'))">
+                                        <div class="product">
+                                            <div class="increment_number">
+                                                04
+                                            </div>
+                                            <div class="product_image">
+                                                <img src="<?php echo base_url() . 'asset/client/'; ?>img/blush4.png" class="width">
+                                            </div>
+                                            <div class="product_name">
+                                                Spring Crush
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-6 no_padding product_item" type="1" onclick="$('#ccream_color .product_item').removeClass('active');$(this).addClass('active');facecolor(231, 172, 207, 'makeovers/face/facecolor/', $(this).attr('type'))">
+                                        <div class="product">
+                                            <div class="increment_number">
+                                                05
+                                            </div>
+                                            <div class="product_image">
+                                                <img src="<?php echo base_url() . 'asset/client/'; ?>img/blush1.png" class="width">
+                                            </div>
+                                            <div class="product_name">
+                                                Pink Pearl
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-6 no_padding product_item" type="1" onclick="$('#ccream_color .product_item').removeClass('active');$(this).addClass('active');facecolor(231, 172, 207, 'makeovers/face/facecolor/', $(this).attr('type'))">
+                                        <div class="product">
+                                            <div class="increment_number">
+                                                06
+                                            </div>
+                                            <div class="product_image">
+                                                <img src="<?php echo base_url() . 'asset/client/'; ?>img/blush2.png" class="width">
+                                            </div>
+                                            <div class="product_name">
+                                                Summer Rose
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-6 no_padding product_item" type="1" onclick="$('#ccream_color .product_item').removeClass('active');$(this).addClass('active');facecolor(231, 172, 207, 'makeovers/face/facecolor/', $(this).attr('type'))">
+                                        <div class="product">
+                                            <div class="increment_number">
+                                                07
+                                            </div>
+                                            <div class="product_image">
+                                                <img src="<?php echo base_url() . 'asset/client/'; ?>img/blush3.png" class="width">
+                                            </div>
+                                            <div class="product_name">
+                                                Nude Bliss
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-6 no_padding product_item" type="1" onclick="$('#ccream_color .product_item').removeClass('active');$(this).addClass('active');facecolor(231, 172, 207, 'makeovers/face/facecolor/', $(this).attr('type'))">
+                                        <div class="product">
+                                            <div class="increment_number">
+                                                08
+                                            </div>
+                                            <div class="product_image">
+                                                <img src="<?php echo base_url() . 'asset/client/'; ?>img/blush4.png" class="width">
+                                            </div>
+                                            <div class="product_name">
+                                                Spring Crush
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div> <!-- End of #powder_color -->
+
+                            <div class="row col-sm-12 makeup_color" id="concealer_color" hidden>
+                                <div class="col-sm-12 col-xs-12">
+                                    <h4>Powder</h4>
+                                    <p>Please select color and other options</p>
+                                </div>
+                                <div class="col-sm-12 col-xs-12">
+
+                                    <div class="col-xs-12 col-sm-6 no_padding product_item active"  type="1" onclick="$('#concealer .product_item').removeClass('active');$(this).addClass('active');facecolor(231, 172, 207, 'makeovers/face/facecolor/', $(this).attr('type'));">
+                                        <div class="product">
+                                            <div class="increment_number">
+                                                01
+                                            </div>
+                                            <div class="product_image">
+                                                <img src="<?php echo base_url() . 'asset/client/'; ?>img/blush1.png" class="width">
+                                            </div>
+                                            <div class="product_name">
+                                                Pink Pearl
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-6 no_padding product_item" type="1" onclick="$('#concealer .product_item').removeClass('active');$(this).addClass('active');facecolor(231, 172, 207, 'makeovers/face/facecolor/', $(this).attr('type'))">
+                                        <div class="product">
+                                            <div class="increment_number">
+                                                02
+                                            </div>
+                                            <div class="product_image">
+                                                <img src="<?php echo base_url() . 'asset/client/'; ?>img/blush2.png" class="width">
+                                            </div>
+                                            <div class="product_name">
+                                                Summer Rose
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-6 no_padding product_item" type="1" onclick="$('#concealer .product_item').removeClass('active');$(this).addClass('active');facecolor(231, 172, 207, 'makeovers/face/facecolor/', $(this).attr('type'))">
+                                        <div class="product">
+                                            <div class="increment_number">
+                                                03
+                                            </div>
+                                            <div class="product_image">
+                                                <img src="<?php echo base_url() . 'asset/client/'; ?>img/blush3.png" class="width">
+                                            </div>
+                                            <div class="product_name">
+                                                Nude Bliss
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-6 no_padding product_item" type="1" onclick="$('#concealer .product_item').removeClass('active');$(this).addClass('active');facecolor(231, 172, 207, 'makeovers/face/facecolor/', $(this).attr('type'))">
+                                        <div class="product">
+                                            <div class="increment_number">
+                                                04
+                                            </div>
+                                            <div class="product_image">
+                                                <img src="<?php echo base_url() . 'asset/client/'; ?>img/blush4.png" class="width">
+                                            </div>
+                                            <div class="product_name">
+                                                Spring Crush
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-6 no_padding product_item" type="1" onclick="$('#concealer .product_item').removeClass('active');$(this).addClass('active');facecolor(231, 172, 207, 'makeovers/face/facecolor/', $(this).attr('type'))">
+                                        <div class="product">
+                                            <div class="increment_number">
+                                                05
+                                            </div>
+                                            <div class="product_image">
+                                                <img src="<?php echo base_url() . 'asset/client/'; ?>img/blush1.png" class="width">
+                                            </div>
+                                            <div class="product_name">
+                                                Pink Pearl
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-6 no_padding product_item" type="1" onclick="$('#concealer .product_item').removeClass('active');$(this).addClass('active');facecolor(231, 172, 207, 'makeovers/face/facecolor/', $(this).attr('type'))">
+                                        <div class="product">
+                                            <div class="increment_number">
+                                                06
+                                            </div>
+                                            <div class="product_image">
+                                                <img src="<?php echo base_url() . 'asset/client/'; ?>img/blush2.png" class="width">
+                                            </div>
+                                            <div class="product_name">
+                                                Summer Rose
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-6 no_padding product_item" type="1" onclick="$('#concealer .product_item').removeClass('active');$(this).addClass('active');facecolor(231, 172, 207, 'makeovers/face/facecolor/', $(this).attr('type'))">
+                                        <div class="product">
+                                            <div class="increment_number">
+                                                07
+                                            </div>
+                                            <div class="product_image">
+                                                <img src="<?php echo base_url() . 'asset/client/'; ?>img/blush3.png" class="width">
+                                            </div>
+                                            <div class="product_name">
+                                                Nude Bliss
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-6 no_padding product_item" type="1" onclick="$('#concealer .product_item').removeClass('active');$(this).addClass('active');facecolor(231, 172, 207, 'makeovers/face/facecolor/', $(this).attr('type'))">
+                                        <div class="product">
+                                            <div class="increment_number">
+                                                08
+                                            </div>
+                                            <div class="product_image">
+                                                <img src="<?php echo base_url() . 'asset/client/'; ?>img/blush4.png" class="width">
+                                            </div>
+                                            <div class="product_name">
+                                                Spring Crush
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div> <!-- End of #powder_color -->
+
+                            <div class="row col-sm-12 color_opacity" id="color_opacity_blush">
+                                <div class="col-sm-12 col-xs-12">
+                                    <h4>Color Opacity</h4>
+                                    <p>Please select color and other options</p>
+                                </div>
+                                <div class="col-sm-12 col-xs-12">
+                                    <input type=range min="40" max="100" value="70" value="70" id="opacity_eyeliner" class="opacity" step="1">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="row col-sm-12 makeup_design" id="powder_design">
+                                <div class="col-sm-12 col-xs-12">
+                                    <h4>Powder Design</h4>
+                                    <p>Please select color and other options</p>
+                                </div>
+                                <div class="col-sm-12 col-xs-12">
+
+                                    <div class="col-xs-12 col-sm-6 no_padding design_item active" onclick="$('#powder_panel .design_item').removeClass('active');$(this).addClass('active'); $('#powder_color').css('display','block'); $('#ccream_color').css('display','none'); $('#concealer_color').css('display','none');">
+                                        <div class="product">
+                                            <div class="increment_number">
+                                                01
+                                            </div>
+                                            <div class="col-xs-12">
+                                                <img src="<?php echo base_url() . 'asset/client/'; ?>img/blush_design1.jpg" class="width">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-6 no_padding design_item" onclick="$('#powder_panel .design_item').removeClass('active');$(this).addClass('active'); $('#powder_color').css('display','none'); $('#ccream_color').css('display','block'); $('#concealer_color').css('display','none');">
+                                        <div class="product">
+                                            <div class="increment_number">
+                                                02
+                                            </div>
+                                            <div class="col-xs-12">
+                                                <img src="<?php echo base_url() . 'asset/client/'; ?>img/blush_design2.jpg" class="width">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-6 no_padding design_item" onclick="$('#powder_panel .design_item').removeClass('active');$(this).addClass('active'); $('#powder_color').css('display','none); $('#ccream_color').css('display','none'); $('#concealer_color').css('display','block');">
+                                        <div class="product">
+                                            <div class="increment_number">
+                                                03
+                                            </div>
+                                            <div class="col-xs-12">
+                                                <img src="<?php echo base_url() . 'asset/client/'; ?>img/blush_design3.jpg" class="width">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div> <!-- End of #blush_design -->
+
+                            <div class="row col-sm-12 suggested" id="sugessted_brush">
+                                <div class="col-sm-12 col-xs-12">
+                                    <h4>Suggested brush</h4>
+                                    <p>Please select color and other options</p>
+                                </div>
+                                <div class="col-sm-12 col-xs-12" id="sugessted_brush_icon">
+                                    <img src="<?php echo base_url() . 'asset/client/'; ?>img/brush3.png" class="suggested_brush active" onclick="changeBrush(1)">
+                                    <img src="<?php echo base_url() . 'asset/client/'; ?>img/brush2.png" class="suggested_brush" onclick="changeBrush(2)">
+                                </div>
+                            </div>
+                        </div>
+                    </div>  <!-- #powder_panel -->
